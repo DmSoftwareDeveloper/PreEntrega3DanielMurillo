@@ -1,0 +1,12 @@
+//Mixins respectivos de los diferentes estilos
+@import "partials/mixins";
+
+//Vistas responsive
+@import "partials/responsive";
+
+//Partials para el diseño de cada página html
+@import "partials/index";
+@import "partials/nosotros";
+@import "partials/dispositivos";
+@import "partials/juegos";
+@import "partials/contactenos";

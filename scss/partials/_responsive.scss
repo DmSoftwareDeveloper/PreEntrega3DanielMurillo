@@ -1,0 +1,323 @@
+//Tamaño Tablet
+@media (max-width: 768px)
+{
+    //Creamos variables
+    $color-fondo: black;
+    $tipografia: 'Russo One', sans-serif;
+
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        background-color: rgb(75, 71, 71);
+    }
+
+    header
+    {
+        background-color: $color-fondo;
+        padding: 20px;
+        text-align: center;
+    h1
+    {
+        font-family: $tipografia;
+        font-size: 50px;
+        color: aliceblue;
+        text-align: left;
+    }
+    nav
+    {
+        padding: 10px;
+        a
+        {
+            font-family: $tipografia;
+            font-size: x-large;
+            margin: 10px;
+            padding: 10px;
+            color: #fef6cd;
+            text-decoration: none;
+            &:hover
+            {
+                color: red;
+                font-size: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+    .logotipo
+    {
+        img
+        {
+            width: 50%;
+            height: 315px;
+        }
+    }
+}
+
+    main
+    {
+        margin: 100px;
+        h1
+        {
+            margin: 90px;
+            font-family: $tipografia;
+            color: #fef6cd;
+            text-align: center;
+        }
+        p
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            color: silver;
+            text-align: center;
+        }
+        .boton
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .button
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 50px;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .home
+        {
+            margin: 250px;
+            width: 900px;
+            padding: 15px;
+            margin-top: 20px;
+            transition: box-shadow 0.3s ease-in-out;
+            &:hover
+            {
+                box-shadow: 0 8px 16px rgb(0, 0, 0);
+            }
+            img
+            {
+                width: 100%;
+                height: fit-content;
+            }
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        .novedades
+        {
+            width: 500px;
+            margin: 10px;
+            border: 4px solid black;
+            border-radius: 2px;
+            transition: box-shadow 0.3s ease-in-out;
+            &:hover
+            {
+                box-shadow: 0 8px 16px rgb(0, 0, 0);
+            }
+            img
+            {
+                width: 100%;
+                height: fit-content;
+            }
+        }
+    }
+
+    footer
+    {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: silver;
+        .copy
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-small;
+        }
+        .redes
+        {
+            padding: 15px;
+            text-align: right;
+            a
+            {
+                color: blue;
+                font-family: $tipografia;
+                text-decoration: none;
+                padding: 5px;
+                &:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+    
+//Tamaño Mobile
+@media (max-width: 320px)
+{
+    //Creamos variables
+    $color-fondo: black;
+    $tipografia: 'Russo One', sans-serif;
+
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        background-color: rgb(75, 71, 71);
+    }
+
+    header
+    {
+        background-color: $color-fondo;
+        padding: 20px;
+        text-align: center;
+        h1
+        {
+            font-family: $tipografia;
+            font-size: 50px;
+            color: aliceblue;
+            text-align: left;
+        }
+        nav
+        {
+            padding: 10px;
+            a
+            {
+                font-family: $tipografia;
+                font-size: x-large;
+                margin: 10px;
+                padding: 10px;
+                color: #fef6cd;
+                text-decoration: none;
+                &:hover
+                {
+                    color: red;
+                    font-size: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .logotipo
+        {
+        img
+            {
+                width: 50%;
+                height: 315px;
+            }
+        }
+    }
+
+    main
+    {
+        margin: 100px;
+        h1
+        {
+            margin: 90px;
+            font-family: $tipografia;
+            color: #fef6cd;
+            text-align: center;
+        }
+        p
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            color: silver;
+            text-align: center;
+        }
+        .boton
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .button
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 50px;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .home
+        {
+            margin: 250px;
+            width: 900px;
+            padding: 15px;
+            margin-top: 20px;
+            transition: box-shadow 0.3s ease-in-out;
+            &:hover
+            {
+                box-shadow: 0 8px 16px rgb(0, 0, 0);
+            }
+            img
+            {
+                width: 100%;
+                height: fit-content;
+            }
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        .novedades
+        {
+            width: 500px;
+            margin: 10px;
+            border: 4px solid black;
+            border-radius: 2px;
+            transition: box-shadow 0.3s ease-in-out;
+            &:hover
+            {
+                box-shadow: 0 8px 16px rgb(0, 0, 0);
+            }
+            img
+            {
+                width: 100%;
+                height: fit-content;
+            }
+        }
+    }
+
+    footer
+    {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: silver;
+        .copy
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-small;
+        }
+        .redes
+        {
+            padding: 15px;
+            text-align: right;
+            a
+            {
+                color: blue;
+                font-family: $tipografia;
+                text-decoration: none;
+                padding: 5px;
+                &:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

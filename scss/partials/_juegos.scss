@@ -1,0 +1,51 @@
+.body
+{
+    background-color: rgb(75, 71, 71);
+}
+
+main
+{
+    h1
+    {
+        font-size: xx-large;
+    }
+    .container-games
+    {
+        @include flex;
+    }
+    .juegos
+    {
+        width: 300px;
+        padding: 15px;
+        margin-top: 20px;
+        border: 2px solid black;
+        border-radius: 3px;
+        transition: box-shadow 0.3s ease-in-out;
+        &:hover
+        {
+            box-shadow: 0 8px 16px rgb(0, 0, 0);
+        }
+        img
+        {
+            width: 100%;
+            height: fit-content;
+        }
+        p
+        {
+            font-size: large;
+        }
+    }
+    .container
+    {
+        p
+        {
+            font-size: large;
+            text-align: justify;
+        }
+    }
+    .img-propia
+    {
+        width: 100%;
+        height: 400px;
+    }
+}
